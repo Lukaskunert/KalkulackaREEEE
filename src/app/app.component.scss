@@ -1,0 +1,90 @@
+.maindisplay {
+    background: lightgrey;
+    height: calc(100% / 3);
+    padding: 5% !important;
+    font-size: 4rem;
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: auto;
+}
+.subdisplay {
+    border-bottom: 1px solid black;
+    height: 25%;
+    font-size: 2rem;
+    overflow: auto;
+}
+.keypad {
+    height: calc(200% / 3);
+}
+.keys {
+    margin: 0;
+    width: 25%;
+    height: 20%;
+    background: whitesmoke;
+    color: black;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+.one-line {
+    display: inline-block;
+}
+.container {
+    background-color: pink;
+}
+.plus {
+    font-size: 25px;
+    thi
+   
+}
+.minus {
+    font-size: 25px;
+   
+}
+.krat {
+    font-size: 25px;
+   
+}
+.deleno {
+    font-size: 25px;
+   
+}
+.div{
+    padding: initial;
+    margin: 0px;
+}
+.vysledek {
+    text-align: center;
+}
+.jedna {
+    
+}
+.dva{
+    
+}
+.tri{
+    
+}
+.ctyri{
+    
+}
+.pet{
+    
+}
+.sest{
+    
+}
+.sedm{
+    
+}
+.osm{
+    
+}
+.devet{
+    
+}
+.nula{
+    
+}
+//margin-right: 690px;

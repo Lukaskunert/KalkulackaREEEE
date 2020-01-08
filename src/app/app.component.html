@@ -1,0 +1,55 @@
+<div style="text-align:center" class="container">
+  <link>
+  <h1>
+  Moje kalkulačka!
+  </h1>
+    <input type="number" name="num1" [(ngModel)]="num1">
+    <input type="number" name="num2" [(ngModel)]="num2">
+    <br><br>
+    <button (click)="secist()" class="plus">+</button>
+    <button (click)="odecist()" class="minus">-</button>
+    <button (click)="vynasobit()" class="krat">*</button>
+    <button (click)="delit()" class="deleno">/</button>
+    <br>
+  <h2>
+    <button (click)="jedna()" class="jedna">1</button>
+    <button (click)="dva()" class="dva">2</button>
+    <button (click)="tri()" class="tri">3</button> <br>
+    <button (click)="ctyri()" class="ctyri">4</button>
+    <button (click)="pet()" class="pet">5</button>
+    <button (click)="sest()" class="sest">6</button> <br>
+    <button (click)="sedm()" class="sedm">7</button>
+    <button (click)="osm()" class="osm">8</button>
+    <button (click)="devet()" class="devet">9</button> <br>
+    <button (click)="nula()" class="nula">0</button>
+  </h2>
+  <h3 class="vysledek()">Vysledek : {{this.num3}}</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+</div>
+
+
+<router-outlet></router-outlet>
